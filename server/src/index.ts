@@ -1,3 +1,4 @@
+import cors from "cors";
 import express from "express";
 
 import map from "src/assets/maps/map.json";
@@ -6,6 +7,8 @@ import tileset from "src/assets/tilesets/tileset.json";
 const PORT = Number(process.env.PORT) || 3000;
 
 const app = express();
+
+app.use(cors());
 
 app.get("/map", (_, res) => {
 	res.send(map);

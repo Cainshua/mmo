@@ -3,7 +3,7 @@
 		"baseUrl": ".",
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
-		"lib": ["es2015"],
+		"lib": ["DOM", "ES2015"],
 		"module": "commonjs",
 		"outDir": "dist",
 		"resolveJsonModule": true,

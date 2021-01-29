@@ -19,5 +19,5 @@ app.get("/tileset", (_, res) => {
 });
 
 app.listen(PORT, () => {
-	console.log(`Server listening at port ${PORT}.`);
+	console.log(`Server running at port ${PORT}.`);
 });

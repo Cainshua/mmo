@@ -1,3 +1,4 @@
+import chalk from "chalk";
 import cors from "cors";
 import express from "express";
 
@@ -19,5 +20,5 @@ app.get("/tileset", (_, res) => {
 });
 
 app.listen(PORT, () => {
-	console.log(`Server running at port ${PORT}.`);
+	console.log(`${chalk.whiteBright("Server running at")} ${chalk.cyanBright(`http://localhost:${PORT}`)}`);
 });

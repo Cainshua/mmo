@@ -6,6 +6,9 @@
 		"lib": ["DOM", "ES2015"],
 		"module": "commonjs",
 		"outDir": "dist",
+		"paths": {
+			"": ["./*"]
+		},
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"sourceMap": true,

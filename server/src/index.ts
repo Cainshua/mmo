@@ -2,8 +2,8 @@ import chalk from "chalk";
 import cors from "cors";
 import express from "express";
 
-import map from "src/assets/maps/map.json";
-import tileset from "src/assets/tilesets/tileset.json";
+import map from "~/assets/maps/map.json";
+import tileset from "~/assets/tilesets/tileset.json";
 
 const PORT = Number(process.env.PORT) || 3000;
 

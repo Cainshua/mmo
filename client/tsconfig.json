@@ -1,13 +1,13 @@
 {
 	"compilerOptions": {
-		"baseUrl": ".",
+		"baseUrl": "src",
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
 		"lib": ["DOM", "ES2015"],
 		"module": "commonjs",
 		"outDir": "dist",
 		"paths": {
-			"": ["./*"]
+			"~/*": ["./*"]
 		},
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
